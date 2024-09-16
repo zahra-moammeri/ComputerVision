@@ -1,0 +1,22 @@
+*.log
+# ignore images and datasets
+*.jpg
+*.JPEG
+*.png
+
+*.txt
+*.csv
+*.xml
+
+# ignore models
+*.pth
+
+*.zip
+
+new_data/
+data/
+__pycache__/
+summaries.py
+logs_tensor/
+
+runs/
