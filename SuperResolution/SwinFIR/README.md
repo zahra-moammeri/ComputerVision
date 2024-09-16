@@ -5,9 +5,8 @@
 - I trained this model on DIV2K dataset and evaluate on Set5 and Set14. 
 - Also Test on Benchmarks: Set5, Set14, BSD100, Uraban100, Manga109
 
-
+- Total Iteration: 500K
 - Loss Function: Charbonier Loss
-- Total Params of SwinIR : 11,752,487
 - Total Params of SwinFIR : 14,350,211 
 - Metrics to evaluate: PSNR, SSIM, LPIPS
 
@@ -20,7 +19,7 @@
 </div>
 
 
-**Testing Results (X2):**
+**SwinFIR Testing Results (X2):**
 
   Dataset   |    PSNR   |    SSIM    |   LPIPS  |
     :--         :-:         :-:           :-:     
