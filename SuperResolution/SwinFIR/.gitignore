@@ -1,0 +1,6 @@
+
+tb_logger/
+results/
+swinfir/
+scripts/
+*/__pycache__/
