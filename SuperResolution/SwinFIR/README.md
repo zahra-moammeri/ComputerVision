@@ -8,16 +8,11 @@
 - Total Iteration: 500K
 - Loss Function: Charbonier Loss
 - Total Params of SwinFIR : 14,350,211 
-- Metrics to evaluate: PSNR, SSIM, LPIPS
+- Metrics: PSNR, SSIM, LPIPS
 
 
-**Some Visulization of resutls (X2):**
-<div>
-    <img src="results/Urban100_092_SwinFIR.png" alt= "Urban100_092" display='inline-block' width=35%>
-    <img src="results/Urban100_019_SwinFIR.png" alt="Urban100_019" display='inline-block' width=35%>
-    <img src="results/BSD100_227092_SwinFIR.png" alt="BSD100_227092" display='inline-block' width=25%>
-</div>
-
+<br/>
+<br/>
 
 **SwinFIR Testing Results (X2):**
 
@@ -28,3 +23,14 @@
   Urban100  |  33.1972  |   0.9493   |  0.0321  |
    BSD100   |  32.4529  |   0.9031   |  0.1193  |
   Manga109  |  39.5940  |   0.9790   |  0.0216  |
+
+
+<br/>
+<br/>
+
+**Some Visulization of resutls (X2):**
+<div>
+    <img src="results/Urban100_092_SwinFIR.png" alt= "Urban100_092" display='inline-block' width=35%>
+    <img src="results/Urban100_019_SwinFIR.png" alt="Urban100_019" display='inline-block' width=35%>
+    <img src="results/BSD100_227092_SwinFIR.png" alt="BSD100_227092" display='inline-block' width=25%>
+</div>
