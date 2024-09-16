@@ -1,6 +1,5 @@
 
 tb_logger/
-swinfir/
 results/BSD100_inference
 results/loss-metrics
 results/Manga109_inference
