@@ -1,6 +1,10 @@
 
 tb_logger/
-results/
 swinfir/
-scripts/
+results/BSD100_inference
+results/loss-metrics
+results/Manga109_inference
+results/Set5_inference
+results/Set14_inference
+results/Urban100_inference
 */__pycache__/
