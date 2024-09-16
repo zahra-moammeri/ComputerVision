@@ -8,7 +8,7 @@
 
 **Some Visulization of resutls (X2):**
 <div>
-    <img src="output/valid-sr/val_sr_200_6.png" alt= "baby" display='inline-block' width=35%>
-    <img src="output/valid-sr/val_sr_200_8.png" alt="powerpoint" display='inline-block' width=35%>
-    <img src="output/valid-sr/val_sr_200_14.png" alt="butterfly" display='inline-block' width=25%>
+    <img src="results/val_sr_200_6.png" alt= "baby" display='inline-block' width=35%>
+    <img src="results/val_sr_200_8.png" alt="powerpoint" display='inline-block' width=35%>
+    <img src="results/val_sr_200_14.png" alt="butterfly" display='inline-block' width=25%>
 </div>
