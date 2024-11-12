@@ -18,10 +18,10 @@ python setup.py develop
  python swinir/train.py -opt options/train/SwinIR/train_SwinIR_SRx2_scratch.yml
 ```
 
-- The training command is like
+- The training command is like (If you use distributed cuda)
 
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 swinfir/train.py -opt options/train/SwinFIR/train_SwinFIR_SRx2_from_scratch.yml --launcher pytorch
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 swinir/train.py -opt options/train/SwinFIR/train_SwinIR_SRx2_from_scratch.yml --launcher pytorch
 ```
 
 The training logs and weights will be saved in the `./experiments` folder.
@@ -35,7 +35,7 @@ python inference/inference_swinir.py
 
 ## How To Test
 ```
-python swinfir/test.py -opt options/test/SwinIR/test_swinir.yml
+python swinir/test.py -opt options/test/SwinIR/test_swinir.yml
 ```
 
 
