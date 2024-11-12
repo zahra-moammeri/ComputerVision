@@ -14,8 +14,12 @@ python setup.py develop
 
 
 ## How To Train
-- python swinir/train.py -opt options/train/SwinIR/train_SwinIR_SRx2_scratch.yml
+```
+ python swinir/train.py -opt options/train/SwinIR/train_SwinIR_SRx2_scratch.yml
+```
+
 - The training command is like
+
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 swinfir/train.py -opt options/train/SwinFIR/train_SwinFIR_SRx2_from_scratch.yml --launcher pytorch
 ```
