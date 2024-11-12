@@ -30,7 +30,7 @@ The training logs and weights will be saved in the `./experiments` folder.
 ## How To Inference
 **Single Image Super Resolution**
 ``` 
-python inference/inference_swinfir.py
+python inference/inference_swinir.py
 ```
 
 ## How To Test
