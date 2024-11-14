@@ -13,6 +13,10 @@ python setup.py develop
 ```
 
 
+## WARNING:
+It seems there is a problem in training SwinIR, that it automatically terminates the training in the middle. I don't have any idea how to solve i. So If you want train 500,000 iters, please set 1,000,000 iters for training.
+
+
 ## How To Train
 ```
  python swinir/train.py -opt options/train/SwinIR/train_SwinIR_SRx2_scratch.yml
